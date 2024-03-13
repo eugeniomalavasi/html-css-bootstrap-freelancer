@@ -13,6 +13,7 @@ ul {
 nav {
     background-color: var(--head-foot-clr);
     color: white;
+    height: 80px;
 }
 
 nav button {
@@ -21,3 +22,19 @@ nav button {
     color: white;
     background-color: var(--head-foot-clr);
 }
+
+.ms_logo {
+    margin: 0;
+    font-weight: 600;
+}
+
+/* HERO IMAGE SECTION */
+.ms_hero_container {
+    background-color: var(--hero-bkg-clr);
+    color: white;
+}
+
+.ms_hero_container p {
+    
+}
+
