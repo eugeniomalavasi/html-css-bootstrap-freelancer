@@ -10,6 +10,11 @@ ul {
     list-style-type: none;
 }
 
+/* STAR BARS */
+.star_bars::before hr {
+    
+}
+
 /* NAV LIST */
 header {
     background-color: var(--head-foot-clr);
@@ -31,6 +36,19 @@ nav button {
 .ms_logo {
     margin: 0;
     font-weight: 600;
+}
+
+header ul {
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
 }
 
 /* HERO IMAGE SECTION */
