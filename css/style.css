@@ -1,7 +1,8 @@
 /* VARIABLES */
 :root {
     --head-foot-clr: #2C3E50;
-    --hero-bkg-clr: #1ABC9C; 
+    --hero-bkg-clr: #1ABC9C;
+    --footer-top: #3A546D;
 }
 
 /* COMMON */
@@ -35,6 +36,47 @@ nav button {
 }
 
 .ms_hero_container p {
-    
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
+/* ABOUT SECTION */
+.about {
+    background-color: var(--hero-bkg-clr);
+    color: white;
+}
+
+.about a {
+    background-color: var(--hero-bkg-clr);
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER SECTION */
+.ms_bottom_footer {
+    height: 80px;
+}
+
+footer :first-child {
+    background-color: var(--footer-top);
+    color: white;
+}
+.ms_bottom_footer p {
+    color: white;
+    line-height: 80px;
+    font-size: 0.8rem;
+    background-color: var(--head-foot-clr);
+}
+
+.ms_top_footer i {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+}
+
+.ms_icons {
+    gap: 1rem;
+}
