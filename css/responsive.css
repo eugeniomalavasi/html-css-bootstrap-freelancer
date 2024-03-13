@@ -1,0 +1,17 @@
+/* CONTAINER 80% MEDIA QUERY */
+@media screen and (min-width: 768px) {
+   .ms_container {
+        width: 80%;
+        margin: 0 auto;
+     } 
+     
+    .about .ms_container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .ms_contact_me .ms_container {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
