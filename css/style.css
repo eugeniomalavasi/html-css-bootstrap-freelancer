@@ -80,3 +80,8 @@ footer :first-child {
 .ms_icons {
     gap: 1rem;
 }
+
+.ms_about a {
+    color: var(--hero-bkg-clr);
+    text-decoration: none;
+} 
