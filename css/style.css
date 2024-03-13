@@ -1,0 +1,23 @@
+/* VARIABLES */
+:root {
+    --head-foot-clr: #2C3E50;
+    --hero-bkg-clr: #1ABC9C; 
+}
+
+/* COMMON */
+ul {
+    list-style-type: none;
+}
+
+/* NAV LIST */
+nav {
+    background-color: var(--head-foot-clr);
+    color: white;
+}
+
+nav button {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--head-foot-clr);
+}
