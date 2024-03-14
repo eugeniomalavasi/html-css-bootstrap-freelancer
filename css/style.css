@@ -55,6 +55,12 @@ header {
     text-decoration: none;
 }
 
+/* FORM SECTIO */
+.form_control {
+    border-top: none;
+    background-color: #1ABC9C;
+}
+
 /* FOOTER SECTION */
 .ms_bottom_footer {
     height: 80px;

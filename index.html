@@ -20,13 +20,13 @@
         <!-- NAV MENU -->
         <div class="ms_container">
             <!-- bootstrap navbar -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg">
                 <!-- container -->
                 <div class="container-fluid">
                     <!-- brand logo -->
                     <a class="navbar-brand" href="#">START BOOTSTRAP</a>
                     <!-- hamburger button -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <!-- hamburger icon -->
@@ -150,12 +150,24 @@
                     </div>
                 </div>
                 <!-- contact list -->
-                <form class="container">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email Addess">
-                    <input type="tel" placeholder="Phone Number">
-                    <input type="text-area" placeholder="Message">
-                    <input type="button" class="btn btn-primary">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control form_control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="text" class="form-label">Message</label>
+                        <input type="text-area" class="form-control" id="text">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </section>
