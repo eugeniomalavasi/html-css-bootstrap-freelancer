@@ -19,16 +19,36 @@
     <header>
         <!-- NAV MENU -->
         <div class="ms_container">
-            <nav class="container-fluid d-flex justify-content-between align-items-center">
-                <p class="ms_logo">START BOOTSTRAP</p>
-                <ul class="d-none d-md-flex gap-3">
-                    <li><a href="">PORTFOLIO</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-                <button class="d-md-none">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+            <!-- bootstrap navbar -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <!-- container -->
+                <div class="container-fluid">
+                    <!-- brand logo -->
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                    <!-- hamburger button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- hamburger icon -->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- navbar collapsed list -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                            <!-- nav item active -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
