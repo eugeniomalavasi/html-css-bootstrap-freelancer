@@ -32,9 +32,10 @@ header ul {
 }
 
 .ms_hmb_style {
-    color: white;
     border: 1px solid white;
 }
+
+
 /* HERO IMAGE SECTION */
 .ms_hero_container {
     background-color: var(--hero-bkg-clr);
