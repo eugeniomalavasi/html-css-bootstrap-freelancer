@@ -12,6 +12,7 @@ ul {
 /* BUTTON */
 .ms_button {
     background-color: var(--hero-bkg-clr);
+    border: none;
 }
 
 /* STAR BARS */
@@ -28,6 +29,11 @@ header {
 
 header ul {
     font-weight: 500;
+}
+
+.ms_hmb_style {
+    color: white;
+    border: 1px solid white;
 }
 /* HERO IMAGE SECTION */
 .ms_hero_container {
@@ -62,12 +68,22 @@ header ul {
     text-decoration: none;
 }
 
-/* FORM SECTIO */
+/* FORM SECTION */
 .ms_form_control {
     border-top: none;
     border-left: none;
     border-right: none;
     border-radius: 0;
+    padding: 0;
+}
+
+.ms_form_style label {
+    margin: 0;
+    padding: 0;
+}
+
+.ms_textarea {
+    height: 200px;
 }
 
 /* FOOTER SECTION */

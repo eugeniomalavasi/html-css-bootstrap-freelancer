@@ -28,7 +28,7 @@
                     <!-- brand logo -->
                     <a class="navbar-brand text-white h6" href="#">START BOOTSTRAP</a>
                     <!-- hamburger button -->
-                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler ms_hmb_style" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <!-- hamburger icon -->
@@ -139,7 +139,8 @@
                     </div>
                     <!-- about button -->
                     <div class="d-flex justify-content-center pt-2 pb-3">
-                        <a class="btn btn-outline-light" type="button" href=""><i class="fa-solid fa-download"></i> Download</a>
+                        <a class="btn btn-outline-light" type="button" href=""><i class="fa-solid fa-download"></i>
+                            Download</a>
                     </div>
                 </div>
             </div>
@@ -148,31 +149,35 @@
         <section class="ms_contact_me">
             <div class="ms_container">
                 <div class="container">
-                    <h3 class="text-center">CONTACT ME</h3>
+                    <h3 class="text-center pt-4">CONTACT ME</h3>
                     <div class="star w-50 d-flex justify-content-center m-auto">
                         <hr class="opacity-100 star-width">
                         <i class="fa-solid fa-star pt-2 px-2 py-2"> </i>
                         <hr class="opacity-100 star-width">
                     </div>
                     <!-- contact list -->
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control ms_form_control" id="name">
+                    <!-- floating input name -->
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control ms_form_control" id="floatingInput" placeholder="name">
+                        <label for="floatingInput" class="fw-medium">Name</label>
+                      </div>
+                        <!-- floating email -->
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control ms_form_control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput" class="fw-medium">Email address</label>
+                          </div>
+                        <!-- floating phone -->
+                        <div class="form-floating mb-3">
+                            <input type="tel" class="form-control ms_form_control" id="floatingInput" placeholder="+39 00000 000">
+                            <label for="floatingInput" class="fw-medium">Phone Number</label>
+                          </div>
+                        <!-- floating text area -->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control ms_form_control ms_textarea" placeholder="Leave a comment here"
+                                id="text"></textarea>
+                            <label for="text" class="fw-medium">Message</label>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control ms_form_control" id="exampleInputEmail1">
-                        </div>
-                        <div class="mb-3">
-                            <label for="phone" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control ms_form_control" id="phone">
-                        </div>
-                        <div class="mb-3">
-                            <label for="text" class="form-label">Message</label>
-                            <input type="text-area" class="form-control ms_form_control" id="text">
-                        </div>
-                        <button type="submit" class="btn btn-primary mb-4 ms_button">Submit</button>
+                        <button type="submit" class="btn btn-primary mb-4 ms_button">Send</button>
                     </form>
                 </div>
         </section>
