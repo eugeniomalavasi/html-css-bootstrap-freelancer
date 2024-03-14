@@ -56,9 +56,11 @@ header {
 }
 
 /* FORM SECTIO */
-.form_control {
+.ms_form_control {
     border-top: none;
-    background-color: #1ABC9C;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
 }
 
 /* FOOTER SECTION */
