@@ -26,7 +26,7 @@
                 <!-- container -->
                 <div class="container-fluid">
                     <!-- brand logo -->
-                    <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+                    <a class="navbar-brand text-white h6" href="#">START BOOTSTRAP</a>
                     <!-- hamburger button -->
                     <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -39,13 +39,13 @@
                         <ul class="navbar-nav mb-2 mb-lg-0 justify-content-end w-100">
                             <!-- nav item active -->
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Portfolio</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">ABOUT</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                                <a class="nav-link active text-white" aria-current="page" href="#">CONTACT</a>
                             </li>
                         </ul>
 
@@ -74,8 +74,11 @@
         <section class="portfolio ms_container">
             <div class="container pt-5">
                 <h2 class="text-center">PORTFOLIO</h2>
-                <div class="star d-flex justify-content-center">
-                    <i class="fa-solid fa-star star_bars"></i>
+                <!-- star -->
+                <div class="star w-50 d-flex justify-content-center text-black m-auto">
+                    <hr class="opacity-100 star-width">
+                    <i class="fa-solid fa-star pt-2 px-2 py-2"> </i>
+                    <hr class="opacity-100 star-width">
                 </div>
                 <div class="row g-3 pt-2 pb-3">
                     <div class="ms_card col-12 col-md-6 col-lg-4">
@@ -134,9 +137,9 @@
                             </p>
                         </div>
                     </div>
-                    <!-- star button -->
-                    <div class="ms_button d-flex justify-content-center pt-2 pb-3">
-                        <a class="d-inline-block p-2" href=""><i class="fa-solid fa-download"></i> Download</a>
+                    <!-- about button -->
+                    <div class="d-flex justify-content-center pt-2 pb-3">
+                        <a class="btn btn-outline-light" type="button" href=""><i class="fa-solid fa-download"></i> Download</a>
                     </div>
                 </div>
             </div>
@@ -146,32 +149,32 @@
             <div class="ms_container">
                 <div class="container">
                     <h3 class="text-center">CONTACT ME</h3>
-                    <!-- star button -->
-                    <div class="star d-flex justify-content-center pb-3">
-                        <i class="fa-solid fa-star"></i>
+                    <div class="star w-50 d-flex justify-content-center m-auto">
+                        <hr class="opacity-100 star-width">
+                        <i class="fa-solid fa-star pt-2 px-2 py-2"> </i>
+                        <hr class="opacity-100 star-width">
                     </div>
+                    <!-- contact list -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control ms_form_control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control ms_form_control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control ms_form_control" id="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Message</label>
+                            <input type="text-area" class="form-control ms_form_control" id="text">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-4 ms_button">Submit</button>
+                    </form>
                 </div>
-                <!-- contact list -->
-                <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control ms_form_control" id="name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control ms_form_control" id="exampleInputEmail1">
-                    </div>
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Phone Number</label>
-                        <input type="tel" class="form-control ms_form_control" id="phone">
-                    </div>
-                    <div class="mb-3">
-                        <label for="text" class="form-label">Message</label>
-                        <input type="text-area" class="form-control ms_form_control" id="text">
-                    </div>
-                    <button type="submit" class="btn btn-primary mb-4">Submit</button>
-                </form>
-            </div>
         </section>
     </main>
 

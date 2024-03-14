@@ -9,12 +9,16 @@
 ul {
     list-style-type: none;
 }
+/* BUTTON */
+.ms_button {
+    background-color: var(--hero-bkg-clr);
+}
 
 /* STAR BARS */
 .star-width {
     min-width: 65px;
     max-width: 180px;
-    border-top: 3px solid white;
+    border-top: 3px solid;
     border-radius: 2px;
 }
 /* NAV LIST */
@@ -22,6 +26,9 @@ header {
     background-color: var(--head-foot-clr);
 }
 
+header ul {
+    font-weight: 500;
+}
 /* HERO IMAGE SECTION */
 .ms_hero_container {
     background-color: var(--hero-bkg-clr);
