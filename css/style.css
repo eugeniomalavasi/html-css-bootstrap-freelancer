@@ -15,6 +15,10 @@ ul {
     border: none;
 }
 
+.ms_button:hover {
+    opacity: 0.7;
+}
+
 /* STAR BARS */
 .star-width {
     min-width: 65px;
@@ -40,6 +44,7 @@ header ul {
 .ms_hero_container {
     background-color: var(--hero-bkg-clr);
     color: white;
+    margin-top: 58px;
 }
 
 .ms_hero_container p {
@@ -83,7 +88,7 @@ header ul {
     padding: 0;
 }
 
-.ms_textarea {
+.form-floating .ms_textarea {
     height: 200px;
 }
 
